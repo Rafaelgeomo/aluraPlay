@@ -9,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.3"
-  }
+    "json": "^11.0.0",
+    "json-server": "^0.17.3",
+    "server": "^1.0.38"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafaelgeomo/aluraPlay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rafaelgeomo/aluraPlay/issues"
+  },
+  "homepage": "https://github.com/Rafaelgeomo/aluraPlay#readme"
 }
