@@ -23,7 +23,15 @@ async function criaVideo(titulo, descricao, url, imagem){
    return conexaoConvertida;
 }
 
+async function buscaVideo(termoDeBusca){
+    const conexao = await fetch (`http://localhost:3000/videos?q=${termoDeBusca}`)
+    const conexaoConvertida = conexao.json();
+
+    return conexaoConvertida;
+}
+
 export const conectaApi = { // exportar uma variavel que vai receber um objeto cheio de funções
     listaVideos,
-    criaVideo
+    criaVideo, 
+    buscaVideo
 }
